@@ -1,0 +1,15 @@
+{
+  "Users": {
+    "id": {"type": "$id"},
+    "user": {"type": "string"},
+    "pass": {"type": "string"},
+    "firstLogin": {"type": "Date"},
+    "birthday": {"type": "Date"}
+  },
+  "Wishes": {
+    "id": {"type": "$id"},
+    "wish": {"type": "string"},
+    "status": {"type": "string"},
+    "timeWished": {"type": "Date"}
+  }
+}
